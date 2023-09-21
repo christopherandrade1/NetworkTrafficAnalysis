@@ -83,8 +83,15 @@ Locate all HTTPS packets from a capture not containing a certain IP address:  <b
 - A compound conditional should include parentheses to avoid order of execution errors: **!(ip.addr == 8.43.85.97) and (tcp.port == 80 or tcp.port == 443)**
 
 <p align="center">
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+
+
+https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/dd415520-b1f0-4120-b674-e0419581e2b7
+
+
+https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/f23b1dfc-9a71-40b3-9493-8fbca04e3b75
+
+
+
 <br />
 
 <!--
