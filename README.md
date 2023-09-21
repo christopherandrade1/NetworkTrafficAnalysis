@@ -55,9 +55,12 @@ Use a display filter to detect HTTPS packets:  <br/>
 - To display only HTTPS traffic, use a filter on TCP port 443: **tcp.port == 443**
  
 <p align="center">
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/814c7d95-b419-4b53-a20a-064c736912de
+
 <br />
-<br />
+
 Visit a web page and detect its IP address using a display filter:  <br/>
 
 - A TLS handshake display filter may be used to detect a website visit in a packet list: tls.handshake.type ==1
