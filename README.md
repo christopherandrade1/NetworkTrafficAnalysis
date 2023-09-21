@@ -69,7 +69,8 @@ Visit a web page and detect its IP address using a display filter:  <br/>
 <p align="center">
 
 
-https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/0f6aad34-5ad6-4916-b479-94568f9653af
+
+https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/12595c33-ff06-452c-88d0-6b5e0d7ed8a3
 
 
 https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/5be8481e-8191-4b61-b433-49b52355671a
