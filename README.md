@@ -39,9 +39,14 @@ Start a packet capture on an ethernet port and save it to file: <br/>
 - The Wireshark app includes controls to start packet capture, stop capture, save the packets to a file, and load the capture file
 - A capture can only be saved once the capture has stopped
 
-<p align="center"> 
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<p align="center">
+ 
+
+https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/13b0f795-baae-44bc-aeff-7715f8316566
+
+
+https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/70c371e6-2c82-4768-bf3a-19ccd66a8aa0
+
 <br />
 <p align="center">
 Use a display filter to detect HTTPS packets:  <br/>
