@@ -20,7 +20,7 @@ This project involves the installation and configuration of Wireshark on an Ubun
 
 Install and set up Wireshark on Ubuntu: <br/>
 
-- To get the latest version of Wireshark on Ubuntu Linux, use the command: **sudo apt install wireshark**
+- To get Wireshark on Ubuntu, use the command: **sudo apt install wireshark**
 - Wireshark should not be run as superuser for security reasons
 - The user can be added to the Wireshark group to add packet capture capabilities: **sudo usermod -aG wireshark $USER**
 
