@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-This project involves the installation and configuration of Wireshark on an Ubuntu system to enable non-super users belonging to the Wireshark group to capture and analyze network packets. The primary focus is on using Wireshark to capture Ethernet packets, identify HTTPS traffic, detect IP addresses of visited web pages, and filter out specific IP addresses from packet captures.
+This project entails setting up Wireshark on an Ubuntu system, enabling non-administrator users who are part of the Wireshark group to conduct network packet capturing and analysis. The main objectives revolve around utilizing Wireshark for Ethernet packet capture, recognizing HTTP/S traffic, pinpointing IP addresses associated with visited web pages, and implementing IP address filtering within packet captures.
 <br />
 
 
