@@ -2,26 +2,24 @@
 
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project involves the installation and configuration of Wireshark on an Ubuntu system to enable non-super users belonging to the Wireshark group to capture and analyze network packets. The primary focus is on using Wireshark to capture Ethernet packets, identify HTTPS traffic, detect IP addresses of visited web pages, and filter out specific IP addresses from packet captures.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Linux</b> 
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b>
-- <b>Oracle VirtualBox</b>
-- <b>Ubuntu</b>
+- <b>Linux</b>
 - <b>Wireshark</b>
 - <b>Firefox</b>
 
-<h2>Program walk-through:</h2>
+<h2>Environment Used </h2>
+
+- <b>Ubuntu</b>
+
+<h2>Project Overview:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Install Wireshark: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
