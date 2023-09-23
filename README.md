@@ -21,9 +21,9 @@ This project entails setting up Wireshark on an Ubuntu system, enabling non-admi
 
 Installed and set up Wireshark on Ubuntu: <br/>
 
-- To get Wireshark on Ubuntu, use the command: **sudo apt install wireshark**
+- To get Wireshark on Ubuntu, I use the command: **sudo apt install wireshark**
 - Wireshark should not be run as superuser for security reasons
-- The user can be added to the Wireshark group to add packet capture capabilities: **sudo usermod -aG wireshark $USER**
+- A user can be added to the Wireshark group to add packet capture capabilities by using the command: **sudo usermod -aG wireshark $USER**
 
 <p align="center">
 <img src="https://imgur.com/YwS4kMS.png" height="80%" width="80%" alt="Installation Steps"/>
@@ -52,8 +52,7 @@ https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/7
 
 Used a display filter to detect HTTPS packets:  <br/>
 
-- To display certain packets in an existing packet capture, use a display filter
-- To display only HTTPS traffic, use a filter on TCP port 443: **tcp.port == 443**
+- Displayed only HTTPS traffic, using the filter: **tcp.port == 443**
  
 <p align="center">
 
@@ -64,8 +63,8 @@ https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/8
 
 Visited a web page and detected its IP address using a display filter:  <br/>
 
-- A TLS handshake display filter may be used to detect a website visit in a packet list: **tls.handshake.type ==1**
-- The IP address is used in a filter to obtain packet information for a particular website: **ip.addr == 142.250.189.4**
+- Utilized the TLS handshake display filter to detect a website visit in a packet list: **tls.handshake.type ==1**
+- Utilized the IP address display filter to obtain packet information for a particular website: **ip.addr == 142.250.189.4**
 
 <p align="center">
 
@@ -80,8 +79,8 @@ https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/5
  
 Located all HTTPS packets from a capture not containing a certain IP address:  <br/>
 
-- A Conditional statement may be used to include and eliminate packets from a Wireshark capture: **!(ip.addr == 8.43.85.97) and tcp.port == 443**
-- A compound conditional should include parentheses to avoid order of execution errors: **!(ip.addr == 8.43.85.97) and (tcp.port == 80 or tcp.port == 443)**
+- Utilized a conditional statement to include all HTTPS alnog with the IP Address on a Wireshark capture: **ip.addr == 8.43.85.97 or tcp.port == 443**
+- To avoid order of execution errors in a compound conditional statement I included parentheses: **!(ip.addr == 8.43.85.97) and (tcp.port == 80 or tcp.port == 443)**
 
 <p align="center">
 
