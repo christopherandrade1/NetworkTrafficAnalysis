@@ -19,7 +19,7 @@ This project entails setting up Wireshark on an Ubuntu system, enabling non-admi
 
 <h2>Project Overview:</h2>
 
-Install and set up Wireshark on Ubuntu: <br/>
+Installed and set up Wireshark on Ubuntu: <br/>
 
 - To get Wireshark on Ubuntu, use the command: **sudo apt install wireshark**
 - Wireshark should not be run as superuser for security reasons
@@ -34,7 +34,7 @@ Install and set up Wireshark on Ubuntu: <br/>
 <br />
 <br />
  
-Start a packet capture on an ethernet port and save it to file: <br/>
+Started a packet capture on an ethernet port and saved it to a file: <br/>
 
 - The wired interface includes the ethernet packet capture, which begins with ‘en’ in Wireshark
 - The Wireshark app includes controls to start packet capture, stop capture, save the packets to a file, and load the capture file
@@ -50,7 +50,7 @@ https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/7
 
 <br />
 
-Use a display filter to detect HTTPS packets:  <br/>
+Used a display filter to detect HTTPS packets:  <br/>
 
 - To display certain packets in an existing packet capture, use a display filter
 - To display only HTTPS traffic, use a filter on TCP port 443: **tcp.port == 443**
@@ -62,7 +62,7 @@ https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/8
 
 <br />
 
-Visit a web page and detect its IP address using a display filter:  <br/>
+Visited a web page and detected its IP address using a display filter:  <br/>
 
 - A TLS handshake display filter may be used to detect a website visit in a packet list: **tls.handshake.type ==1**
 - The IP address is used in a filter to obtain packet information for a particular website: **ip.addr == 142.250.189.4**
@@ -78,7 +78,7 @@ https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/5
 
 <br />
  
-Locate all HTTPS packets from a capture not containing a certain IP address:  <br/>
+Located all HTTPS packets from a capture not containing a certain IP address:  <br/>
 
 - A Conditional statement may be used to include and eliminate packets from a Wireshark capture: **!(ip.addr == 8.43.85.97) and tcp.port == 443**
 - A compound conditional should include parentheses to avoid order of execution errors: **!(ip.addr == 8.43.85.97) and (tcp.port == 80 or tcp.port == 443)**
