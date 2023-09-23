@@ -8,7 +8,6 @@ This project entails setting up Wireshark on an Ubuntu system, enabling non-admi
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Linux</b>
 - <b>Wireshark</b>
 - <b>Firefox</b>
 
