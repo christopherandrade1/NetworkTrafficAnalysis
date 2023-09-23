@@ -79,7 +79,7 @@ https://github.com/christopherandrade1/NetworkTrafficAnalysis/assets/145081683/5
  
 Located all HTTPS packets from a capture not containing a certain IP address:  <br/>
 
-- Utilized a conditional statement to include all HTTPS alnog with the IP Address on a Wireshark capture: **ip.addr == 8.43.85.97 or tcp.port == 443**
+- Utilized a conditional statement to include all HTTPS along with the IP Address on a Wireshark capture: **ip.addr == 8.43.85.97 or tcp.port == 443**
 - To avoid order of execution errors in a compound conditional statement I included parentheses: **!(ip.addr == 8.43.85.97) and (tcp.port == 80 or tcp.port == 443)**
 
 <p align="center">
